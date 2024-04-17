@@ -8,7 +8,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect("mongodb://127.0.0.1:27017/CRUD")
+mongoose.connect("mongodb+srv://chandansharma79928fea:chandan@2000@cluster0.pzdttv6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 
 
